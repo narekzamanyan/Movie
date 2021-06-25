@@ -2,9 +2,9 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args ) {
-        // Create Hashset
-        HashSet myCollection = new HashSet();
-
+        // Create ArrayList
+        Collection myCollection = new ArrayList();
+        
         // Adding 5 Movies into collection
         myCollection.add(new Movie("Spider Man", 3));
         myCollection.add(new Movie("Matrix", 9));
